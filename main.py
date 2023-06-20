@@ -226,6 +226,9 @@ if __name__ == '__main__':
     # Instantiate the SentimentAnalysis class
     sa = SentimentAnalysis()
 
+    # Fetch and store bitcoin data
+    sa.bitcoin_data.fetch_and_store_data()
+
     # Load and Clean tweet data
     sa.tweet_data.load_data()
     sa.tweet_data.clean_data()
