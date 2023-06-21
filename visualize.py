@@ -29,7 +29,6 @@ class DataVisualizer:
 
     @staticmethod
     def plot_correlation(df, show=False):
-        # numeric_df = df.select_dtypes(include=[np.number])
         corr = df[['sentiment', 'Number of trades', 'Close', 'Volume']].corr()
         fig, ax = plt.subplots(figsize=(10, 8))
         sns.heatmap(corr, annot=True, cmap='coolwarm')
