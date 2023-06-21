@@ -50,7 +50,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("./Bitcoin Sentiment Analysis.jpg")
+    st.image("./img/Bitcoin Sentiment Analysis.jpg")
 
 with col3:
     st.write("")
