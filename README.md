@@ -2,16 +2,17 @@
 
 *An analysis of the relationship between Bitcoin prices and Twitter sentiment.*
 
-![Architecture](Bitcoin%20Sentiment%20Analysis.jpg)
+![Architecture](./img/Bitcoin%20Sentiment%20Analysis.jpg)
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Setup Instructions](#setup-instructions)
 3. [Project Structure](#project-structure)
-4. [Dataset](#dataset)
-5. [Results](#results)
-6. [License](#license)
+4. [Notebook](#notebook)
+5. [Dataset](#dataset)
+6. [Results](#results)
+7. [License](#license)
 
 ## Introduction <a name="introduction"></a>
 
@@ -64,6 +65,17 @@ You should now be up and running with the CryptoSentiment project!
 - `main.py`: This is the main script used for data merging, reshaping, running the analysis, and training the LSTM model.
 - `visualize.py`: This script contains all the plotting and data visualization functions.
 - `database.py`: This script is used for loading and cleaning the Tweet dataset and fetching and storing Bitcoin data from the Binance API.
+
+## Notebook <a name="notebook"></a>
+
+In addition to the Python scripts, this project also includes a Jupyter notebook that guides you through each step of the data collection, cleaning, analysis, and modelling process. This notebook is ideal for those who prefer a more interactive experience or want to experiment with the code.
+
+The notebook is named `main.ipynb` and can be found in the `notebook` directory. It can be run in Jupyter Notebook or Jupyter Lab. If you're not familiar with these tools, you might find these getting started guides helpful:
+
+- [Jupyter Notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/)
+- [Jupyter Lab](https://jupyterlab.readthedocs.io/en/latest/getting_started/overview.html)
+
+You can start the notebook by navigating to the `notebook` directory and executing the command `jupyter notebook` or `jupyter lab`, depending on your setup. This will start a local server and open a tab in your web browser from where you can open `main.ipynb`.
 
 ## Dataset <a name="dataset"></a>
 
