@@ -91,7 +91,7 @@ st.write(
 # Count plot
 st.header('Count Plot of Sentiment Scores')
 st.write(
-    "We define three bins for negative (less than -0.9), neutral (between -0.9 and 1.2), and positive (greater than 1.2) sentiment scores. Which categorizes the sentiment scores according to these bins.")
+    "We define three bins for negative (less than 0.9), neutral (between 0.9 and 1.2), and positive (greater than 1.2) sentiment scores. Which categorizes the sentiment scores according to these bins.")
 fig6 = DataVisualizer.plot_sentiment_bins(data, 'sentiment')
 st.pyplot(fig6)
 st.write(
